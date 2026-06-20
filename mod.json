@@ -9,6 +9,13 @@
     "developers": ["exilium"],
     "description": "Automatically deletes a level's downloaded song when you remove the level, so they don't pile up on your disk.",
     "tags": ["utility", "music", "offline"],
+    "links": {
+        "source": "https://github.com/BBareth/songcleaner"
+    },
+    "issues": {
+        "info": "Open an issue on GitHub.",
+        "url": "https://github.com/BBareth/songcleaner/issues"
+    },
     "settings": {
         "enabled": {
             "type": "bool",
