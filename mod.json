@@ -1,0 +1,26 @@
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "2.2081"
+    },
+    "id": "exilium.song-cleaner",
+    "name": "Song Cleaner",
+    "version": "v1.0.0",
+    "developers": ["exilium"],
+    "description": "Automatically deletes a level's downloaded song when you remove the level, so they don't pile up on your disk.",
+    "tags": ["utility", "music", "offline"],
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "name": "Enable Auto-Cleanup",
+            "description": "If on, deleting a saved level will also delete its custom song mp3 (provided no other level still references it).",
+            "default": true
+        },
+        "ignore-shared": {
+            "type": "bool",
+            "name": "Skip songs used by other levels",
+            "description": "If on, the song is kept whenever another saved or local level still references it. Turning this off forces deletion regardless (not recommended).",
+            "default": true
+        }
+    }
+}
